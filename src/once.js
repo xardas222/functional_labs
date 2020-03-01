@@ -1,5 +1,9 @@
-
-
 const once = fn => {
-let done = false;
-}
+  let _done = false;
+  return (...args) => {
+    if(!_done) {
+      _done = true;
+      fn(...args);
+    }
+  }
+};

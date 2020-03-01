@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/xardas222/functional_labs/issues"
   },
-  "homepage": "https://github.com/xardas222/functional_labs#readme"
+  "homepage": "https://github.com/xardas222/functional_labs#readme",
+  "devDependencies": {
+    "jasmine": "^3.5.0"
+  }
 }
